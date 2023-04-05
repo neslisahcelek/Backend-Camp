@@ -1,0 +1,8 @@
+1.Business: asıl işi yaptığın kodlar
+2.DataAccess: veritabanı
+3.Entities: veritabanında tablolara karşılık gelen nesneler
+
+dal / dao - data access layer / object
+_products : global değişken
+
+linq - language integrated query
