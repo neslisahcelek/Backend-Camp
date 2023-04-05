@@ -19,7 +19,6 @@ namespace DataAccess.Concrete.InMemory
                 new Product{ProductId=3,CategoryId=2, ProductName="Phone", UnitPrice=1500,UnitsInStock=2},
                 new Product{ProductId=4,CategoryId=2, ProductName="Keyboard", UnitPrice=150,UnitsInStock=65},
                 new Product{ProductId=5,CategoryId=2, ProductName="Mouse", UnitPrice=85,UnitsInStock=1}
-
             };
         }
         public void Add(Product product)
@@ -39,9 +38,21 @@ namespace DataAccess.Concrete.InMemory
             return _products;
         }
 
+        public List<Product> GetAllByCategory(int categoryId)
+        {
+            List<Product> products = new List<Product>();
+            Product productToDelete = _products.(
+                p => p.cate == product.categoryId);
+        }
+
         public void Update(Product product)
         {
-            throw new NotImplementedException();
+            Product productToUpdate = _products.SingleOrDefault(
+                p => p.ProductId == product.ProductId);
+            productToUpdate.ProductId=product.ProductId;
+            productToUpdate.ProductName=product.ProductName;    
+            productToUpdate.UnitPrice=product.UnitPrice;    
+            productToUpdate.UnitsInStock=product.UnitsInStock;
         }
     }
 }
