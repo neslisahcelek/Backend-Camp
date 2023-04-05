@@ -1,0 +1,5 @@
+D:\clones\Backend-Camp\BackendCampProject\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+D:\clones\Backend-Camp\BackendCampProject\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\clones\Backend-Camp\BackendCampProject\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+D:\clones\Backend-Camp\BackendCampProject\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+D:\clones\Backend-Camp\BackendCampProject\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache

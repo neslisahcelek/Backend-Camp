@@ -6,3 +6,20 @@ dal / dao - data access layer / object
 _products : global değişken
 
 linq - language integrated query
+Product productToDelete = _products.SingleOrDefault(
+                p=>p.ProductId == product.ProductId);
+direkt remove edersen referanslar uyuşmaz silinmez
+
+Businessta interfaceler service
+IProductService
+concretede productManager
+
+iş sınıfı başka sınıfları newlemez, inject eder
+   IProductDal _productDal;
+        public ProductManager(IProductDal productDal)
+        {
+            _productDal = productDal;
+        }
+
+business ve dataaccess entityi kullandığı için ref ekle(dependency)
+business dataaccessi de kullanıyor

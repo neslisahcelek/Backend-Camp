@@ -40,9 +40,7 @@ namespace DataAccess.Concrete.InMemory
 
         public List<Product> GetAllByCategory(int categoryId)
         {
-            List<Product> products = new List<Product>();
-            Product productToDelete = _products.(
-                p => p.cate == product.categoryId);
+            return _products.Where(p => p.CategoryId==categoryId).ToList;
         }
 
         public void Update(Product product)

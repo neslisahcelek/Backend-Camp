@@ -1,0 +1,5 @@
+D:\clones\Backend-Camp\BackendCampProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.csproj.AssemblyReference.cache
+D:\clones\Backend-Camp\BackendCampProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\clones\Backend-Camp\BackendCampProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.AssemblyInfoInputs.cache
+D:\clones\Backend-Camp\BackendCampProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.AssemblyInfo.cs
+D:\clones\Backend-Camp\BackendCampProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.csproj.CoreCompileInputs.cache
