@@ -1,7 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System;
 using Business.Concrete;
 using DataAccess.Concrete.InMemory;
-using System;
+using Business.Abstract;
+using DataAccess.Abstract;
+
 using System.Linq;
 using System.Text;
 
