@@ -10,7 +10,6 @@ BackendCampProject/.vs/BackendCampProject/v17/.suo
 *.cache
 *.editorconfig
 *.cache
-*.cs
 *.CopyComplete
 *.vsidx
 *.v2
