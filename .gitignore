@@ -1,10 +1,7 @@
 
 *.v2
-*.v2
-*.vsidx
+
 BackendCampProject/.vs/BackendCampProject/v17/.suo
-*.v2
-*.1
 *.dll
 *.pdb
 *.cache
@@ -12,10 +9,8 @@ BackendCampProject/.vs/BackendCampProject/v17/.suo
 *.cache
 *.CopyComplete
 *.vsidx
-*.v2
-*.vsidx
-*.vsidx
 *.txt
 *.v2
-*.v2
 BackendCampProject/.vs/BackendCampProject/DesignTimeBuild/.dtbcache.v2
+*.txt
+
