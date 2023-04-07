@@ -7,7 +7,7 @@ using DataAccess.Abstract;
 
 using System.Linq;
 using System.Text;
-
+using DataAccess.Concrete.EntityFramework;
 
 namespace ConsoleUI
 {
