@@ -8,6 +8,7 @@ using DataAccess.Abstract;
 using System.Linq;
 using System.Text;
 using DataAccess.Concrete.EntityFramework;
+using Entities.Concrete;
 
 namespace ConsoleUI
 {
@@ -16,7 +17,7 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             ProductManager pm = new ProductManager(new InMemoryProductDal());
-            foreach (var product in pm.GetAll())
+            foreach (var product in pm.GetAllByCategoryId(2))
             {
                 Console.WriteLine(product.ProductName);
             }
